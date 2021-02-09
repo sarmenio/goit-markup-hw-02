@@ -1,0 +1,385 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* фоны */
+.top-background {
+    background-color: var(--header-footer-background);
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    }
+
+.footer {
+    background-color: var(--header-footer-background);
+}
+
+
+/* логотип */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--black-text-logo);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.blue {
+    color: var(--blue-text-button);
+    }
+
+.white {
+    color: var(--white-text);
+    
+}
+
+
+/* ссылки и ховер */
+.link-title li {
+    list-style-type: none;
+}
+
+.link-title a {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    outline: none;
+    color: var(--black-text-main);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-title a:hover,
+.link-title a:focus {
+    color: var(--blue-text-button);
+    font-weight: 700;
+}
+
+.link-title a:visited {
+    color: var(--visited-text);
+    font-weight: 300;
+} 
+
+.link-contacts li {
+    list-style-type: none;
+}
+
+.link-contacts a {
+    color: var(--grey-text);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    outline: none;
+}
+
+.link-contacts a:hover,
+.link-contacts a:focus {
+    color: var(--blue-text-button);
+    font-weight: 700;
+   }
+
+
+.link-contacts a:visited {
+    color: var(--visited-text);
+    font-weight: 300;
+}
+
+/* заголовок */
+.main-title {
+    color: var(--white-text);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* кнопка */
+.button {
+    background-color: var(--blue-text-button);
+    border-radius: 4px;
+    border: none;
+    color: var(--white-text);
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--black-text-main);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: var(--white-text-op60);
+}
+
+/* секция особенности/преимущества */
+.advanteges-title li {
+    list-style-type: none;
+}
+
+.advanteges-title h3 {
+    color: var(--black-text-main);
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.advanteges-description p {
+    color: var(--grey-text);
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* секция чем мы занимаемся*/
+.ourservice {
+    color: var(--black-text-main);
+    width: 376px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourservice-cards li {
+    list-style-type: none;
+}
+
+.ourservice-cards img {
+    width: 370px;
+    height: 294px;
+    top: 1061px;
+}
+
+.ourservice-cards a:hover,
+.ourservice-cards a:focus,
+.ourservice-cards a:active {
+    background-color: var(--blue-text-button);
+}
+
+/* наша команда */
+
+.ourteam-background {
+background-color: var(--ourteam-background);
+}
+
+.ourteam-title {
+    color: var(--black-text-main);
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1543px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-cards li {
+    background-color: var(--card-background);
+    width: 270px;
+    height: 368px;
+    top: 1635px;
+    padding-bottom: 94px;
+    list-style-type: none;
+}
+
+.ourteam-name h4 {
+    color: var(--black-text-main);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-position p {
+    color: var(--grey-text);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* футер адрес */
+
+.footer-address {
+    color: var(--white-text);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-links a {
+    color: var(--white-text-op60);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    outline: none;
+    text-decoration: none;
+    }
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: var(--blue-text-button);
+    font-weight: 500;
+    }
+
+.footer-links a:visited {
+    color: var(--visited-text);
+    font-weight: 300;
+}
+
+
+
+/* отступы */
+.logo {
+    padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;
+}
+
+.link-title-studio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 50px;
+}
+
+.link-title-portfolio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 50px;
+}
+
+.link-title-contacts {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 331px;
+}
+
+.link-contacts-mail {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 50px;
+}
+
+.link-contacts-phone {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 215px;
+}
+
+.main-title {
+    padding-left: 452px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-right: 452px;
+}
+
+.button {
+    margin-left: 700px;
+    margin-bottom: 200px;
+    margin-right: 700px;
+}
+
+.advanteges-section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.ourservice-block {
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.ourservice {
+    padding-left: 612px;
+    padding-right: 612px;
+    padding-bottom: 50px;
+}
+
+.ourservice-card1 {
+    padding-left: 215px;
+    padding-right: 30px;
+    padding-bottom: 94px;
+}
+
+.ourservice-card2 {
+    padding-right: 30px;
+    padding-bottom: 94px;
+}
+
+.ourservice-card3 {
+    padding-right: 215px;
+    padding-bottom: 94px;
+}
+
+.ourteam-title {
+    padding-top: 94px;
+    padding-right: 668px;
+    padding-left: 668px;
+    padding-bottom: 50px;
+}
+
+.ourteam-cards {
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 94px;
+ }
+
+ .logo-footer {
+    padding-top: 60px;
+    padding-right: 1240px;
+    padding-bottom: 20px;
+}
+
+.footer-address {
+    padding-left: 215px;
+
+}
+.footer-links {
+    padding-left: 215px;
+    padding-right: 1263px;
+    padding-bottom: 62px;
+}
