@@ -60,7 +60,7 @@
 
 .link-title a:visited {
     color: var(--visited-text);
-    font-weight: 300;
+    font-weight: 400;
 } 
 
 .link-contacts li {
@@ -86,7 +86,7 @@
 
 .link-contacts a:visited {
     color: var(--visited-text);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* заголовок */
@@ -133,10 +133,6 @@
 
 .advanteges-title h3 {
     color: var(--black-text-main);
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -147,11 +143,7 @@
 
 .advanteges-description p {
     color: var(--grey-text);
-    width: 270px;
-    height: 75px;
-    left: 215px;
-    top: 800px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -160,8 +152,6 @@
 /* секция чем мы занимаемся*/
 .ourservice {
     color: var(--black-text-main);
-    width: 376px;
-    height: 42px;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.16;
@@ -193,10 +183,6 @@ background-color: var(--ourteam-background);
 
 .ourteam-title {
     color: var(--black-text-main);
-    width: 264px;
-    height: 42px;
-    left: 668px;
-    top: 1543px;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -224,7 +210,7 @@ background-color: var(--ourteam-background);
 
 .ourteam-position p {
     color: var(--grey-text);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -236,7 +222,7 @@ background-color: var(--ourteam-background);
 
 .footer-address {
     color: var(--white-text);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -248,7 +234,7 @@ background-color: var(--ourteam-background);
 
 .footer-links a {
     color: var(--white-text-op60);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -264,10 +250,8 @@ background-color: var(--ourteam-background);
 
 .footer-links a:visited {
     color: var(--visited-text);
-    font-weight: 300;
+    font-weight: 400;
 }
-
-
 
 /* отступы */
 .logo {
